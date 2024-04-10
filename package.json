@@ -1,0 +1,15 @@
+{
+  "name": "hello-blockstalker",
+  "version": "1.0.0",
+  "description": "BlockStalker.IO Simple Streaming Client",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@blockstalker/client-js": "^0.1.0"
+  }
+}
