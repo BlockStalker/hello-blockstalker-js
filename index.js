@@ -17,7 +17,7 @@ const mainClient = blockStalkerClient(apiKey, apiBaseURL);
 */
 
 // Customize restClient to set global options (i.e. request/response tracing)
-const rc = restClient(apiKey, apiBaseURL, { trace: true });
+const rc = restClient(apiKey, apiBaseURL, { trace: false });
 
 // Otherwise you can simply use blockStalkerClient:
 const myStreams = await mainClient.rest.streams.owned();
