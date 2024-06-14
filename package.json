@@ -10,6 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@blockstalker/client-js": "^0.1.0"
+    "@blockstalker/client-js": "^0.2.0"
   }
 }
