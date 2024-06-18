@@ -38,7 +38,7 @@ const local_apiKey = 'YOUR_API_KEY_HERE';
 3. Run
 ```javascript
 npm install
-node index.js
+npm start
 ```
 
 ## License

@@ -5,11 +5,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@blockstalker/client-js": "^0.2.0"
+    "@blockstalker/client-js": "^0.2.1"
   }
 }

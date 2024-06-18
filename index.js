@@ -37,7 +37,7 @@ const usdc = await rc.registry.lookup('31566704');
 console.log("USDC Asset:", usdc);
 const usdcFilter = new FilterFormBuilder()
     .keyFilter('31566704')
-    .event(KeyEvent.AssetXfer)
+    .subscribe(KeyEvent.AssetXfer)
     .stream(personalStream)
     //.amount(5, NumericCondition.GreaterOrEqual)  // Optionally set a minimum Xfer Amount
     .build();
@@ -50,7 +50,7 @@ const usdcFilter = new FilterFormBuilder()
 //       Keep an eye on Match Usage: https://blockstalker.io/account
 const cexFilter = new FilterFormBuilder()
     .idFilter(KeyGroup.CentralExchange, KeyType.Account)
-    .event(KeyEvent.ExchangeWithdrawal)
+    .subscribe(KeyEvent.ExchangeWithdrawal)
     .stream(personalStream)
     .build();
 
